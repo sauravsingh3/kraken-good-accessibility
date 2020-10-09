@@ -30,6 +30,7 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
+  background-color: #1e7c74;
 }
 
 header strong,
@@ -54,6 +55,7 @@ article header {
   background-image: none;
   border-radius: 0 0 6px 6px;
   color: #fff;
+  padding: 0;
 }
 
 h1 {
@@ -94,6 +96,7 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+  outline: 2px solid #000;
 }
 
 .icon {
@@ -157,4 +160,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #1e7c74;
 }
