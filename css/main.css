@@ -25,40 +25,47 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
   padding: 1rem 0 0;
-  background-color: #1e7c74;
 }
 
 header strong,
 header p {
   margin: 0;
   font-weight: normal;
-  padding-bottom: 1rem;
   padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .by {
   font-style: italic;
 }
 
-article div {
+main div {
   padding: 1rem;
 }
 
-article header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+hgroup {
   background-color: #259f95;
+  padding: 0 1rem;
+}
+
+article header {
   background-image: none;
+  background-color: #259f95;
   border-radius: 0 0 6px 6px;
   color: #fff;
-  padding-bottom: 0;
-  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+article header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
@@ -73,6 +80,10 @@ h2 {
   color: #fff;
   font-weight: normal;
   font-size: 1.75rem;
+}
+
+nav {
+  background-color: #259f95;
 }
 
 nav ul {
@@ -99,7 +110,6 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
-  outline: 2px solid #000;
 }
 
 .icon {
@@ -120,23 +130,22 @@ nav i {
   height: 100%;
 }
 
-article p {
+main p {
   margin: 0;
   text-indent: 1.3em;
 }
 
-article div :first-child {
+main div :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+main div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
 
 figure {
   margin: 1.5rem 0;
-  margin-bottom: 0;
 }
 
 figure img {
@@ -165,13 +174,4 @@ footer {
   background-image: url("../images/anchors.svg");
   color: #fff;
   background-color: #1e7c74;
-}
-
-main div {
-  padding: 1rem;
-  padding-bottom: .5rem;
-}
-
-p {
-  margin: 0;
 }
