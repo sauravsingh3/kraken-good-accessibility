@@ -29,7 +29,7 @@ header {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
-  padding: 1rem;
+  padding: 1rem 0 0;
   background-color: #1e7c74;
 }
 
@@ -37,6 +37,8 @@ header strong,
 header p {
   margin: 0;
   font-weight: normal;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .by {
@@ -55,7 +57,8 @@ article header {
   background-image: none;
   border-radius: 0 0 6px 6px;
   color: #fff;
-  padding: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 h1 {
@@ -133,6 +136,7 @@ article div :first-child::first-line {
 
 figure {
   margin: 1.5rem 0;
+  margin-bottom: 0;
 }
 
 figure img {
@@ -148,7 +152,7 @@ figcaption {
 }
 
 article footer {
-  background-color: #259f95;
+  background-color: #1e7c74;
   background-image: none;
   border-radius: 6px 6px 0 0;
   color: #fff;
@@ -161,4 +165,13 @@ footer {
   background-image: url("../images/anchors.svg");
   color: #fff;
   background-color: #1e7c74;
+}
+
+main div {
+  padding: 1rem;
+  padding-bottom: .5rem;
+}
+
+p {
+  margin: 0;
 }
